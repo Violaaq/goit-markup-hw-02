@@ -8,12 +8,14 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo-web {
-  color: var(--color-header);
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-family: Raleway;
   font-weight: 800;
