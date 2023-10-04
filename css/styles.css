@@ -3,7 +3,8 @@
   --color-contact: #434455;
   --color-button: #4d5ae5;
   --color-link: #2196f3;
-  --color-button-active: white;
+  --color-button-active: #ffffff;
+  --color-button-on: #404bbf;
   --color-footer: #f4f4fd;
 }
 
@@ -12,17 +13,27 @@ body {
   color: var(--color-contact);
   background-color: #ffffff;
 }
+.header-contents {
+  list-style: none;
+}
 
 .logo-web {
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
   color: var(--color-button);
   font-size: 18px;
-  font-family: Raleway;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.54px;
   word-wrap: break-word;
+}
+.logo-text {
+  color: var(--color-header);
+}
+
+.navigation {
+  list-style: none;
 }
 
 .nav-link {
@@ -30,7 +41,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   word-wrap: break-word;
 }
 
@@ -38,8 +49,11 @@ body {
 .nav-link:focus {
   color: var(--color-link);
 }
+.adress-style {
+  font-style: normal;
+}
 
-.nav-link-contact {
+.contact-style {
   color: var(--color-contact);
   font-size: 16px;
   font-weight: 400;
@@ -47,30 +61,36 @@ body {
   letter-spacing: 0.32px;
   word-wrap: break-word;
 }
-.nav-link-contact:hover,
-.nav-link-contact:focus {
+.contact-style:hover,
+.contact-style:focus {
   color: var(--color-link);
 }
-.main-section {
+
+.first-section {
+  background-color: var(--color-header);
+}
+.section-tittle {
   color: white;
   font-size: 56px;
   font-family: Roboto;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   word-wrap: break-word;
+  text-align: center;
 }
 
-.second-section {
-  color: #2e2f42;
+.third-section-tittle {
+  color: var(--color-header);
   font-size: 36px;
   font-family: Roboto;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   word-wrap: break-word;
 }
+.forth-section {background-color: var(--color-footer);}
 
 .list-button {
   color: var(--color-button);
@@ -78,13 +98,15 @@ body {
   font-family: Roboto;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   word-wrap: break-word;
+  cursor: pointer;
 }
 
 .list-button:hover,
 .list-button:focus {
   color: var(--color-button-active);
+  background-color: var(--color-button-on);
 }
 .project-tittle {
   color: var(--color-header);
