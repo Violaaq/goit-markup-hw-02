@@ -82,6 +82,22 @@ body {
   word-wrap: break-word;
   text-align: center;
 }
+.button {
+  background-color: var(--color-button);
+  color: var(--color-button-active);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-button-on);
+}
 
 .third-section-tittle {
   color: var(--color-header);
@@ -94,10 +110,10 @@ body {
   word-wrap: break-word;
   text-align: center;
 }
-.forth-section {
+.fourth-section {
   background-color: var(--color-footer);
 }
-.forth-section-tittle {
+.fourth-section-tittle {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
