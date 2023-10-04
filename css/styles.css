@@ -47,7 +47,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--color-link);
+  color: var(--color-button-on);
 }
 .adress-style {
   font-style: normal;
@@ -63,7 +63,7 @@ body {
 }
 .contact-style:hover,
 .contact-style:focus {
-  color: var(--color-link);
+  color: var(--color-button-on);
 }
 .list-content {
   list-style: none;
@@ -152,7 +152,7 @@ body {
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
-  color: var(--color-button);
+  color: var(--color-footer);
   font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
