@@ -25,11 +25,16 @@ body {
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   word-wrap: break-word;
 }
+.logo {
+  text-decoration: none;
+}
+
 .logo-text {
-  color: var(--color-header);
+  color: var(--color-footer);
+  text-decoration: none;
 }
 
 .navigation {
@@ -105,6 +110,7 @@ body {
 
 .list-button {
   background-color: var(--color-button);
+  color: var(--color-button-active)
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -133,7 +139,7 @@ body {
   word-wrap: break-word;
 }
 
-.decription {
+.description {
   color: var(--color-contact);
   font-size: 16px;
   font-family: Roboto;
@@ -146,17 +152,7 @@ body {
 .footer {
   background-color: var(--color-header);
 }
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  color: var(--color-button);
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-  text-transform: uppercase;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  word-wrap: break-word;
-}
+
 .footer-content {
   color: var(--color-footer);
   font-size: 16px;
